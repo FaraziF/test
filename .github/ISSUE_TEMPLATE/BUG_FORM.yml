@@ -22,7 +22,6 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-      render: shell
   - type: textarea
     id: logs2
     attributes:
