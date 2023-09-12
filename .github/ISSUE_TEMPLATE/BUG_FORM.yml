@@ -23,8 +23,6 @@ body:
         3. Scroll down to '....'
         4. See error
       render: shell
-    validations:
-      required: true
   - type: textarea
     id: logs2
     attributes:
@@ -47,8 +45,6 @@ body:
       label: Additional Information
       description: Include any other relevant information, any images or videos, such as related issues, links to documentation, or any workarounds if they exist.
       render: shell
-    validations:
-      required: true
   - type: dropdown
     id: browsers
     attributes:
