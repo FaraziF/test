@@ -1,6 +1,6 @@
 name: Feature Request
 description: File a feature request
-projects: ["dokan-cloud"]
+projects: ["dokan-plugin"]
 assignees:
   - dokan
 body:
