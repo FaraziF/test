@@ -27,7 +27,6 @@ body:
     attributes:
       label: Expected Behaviour
       description: Describe what you expected to happen when performing the steps listed above.
-      render: shell
     validations:
       required: true
   - type: textarea
@@ -35,7 +34,6 @@ body:
     attributes:
       label: Actual Behaviour
       description: Describe what actually happened when performing the steps, highlighting the bug's behavior.
-      render: shell
     validations:
       required: true
   - type: textarea
