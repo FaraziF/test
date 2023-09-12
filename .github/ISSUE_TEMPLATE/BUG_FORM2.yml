@@ -50,9 +50,7 @@ body:
     attributes:
       label: Environment (please complete the following information)
       value: |
-        1. Dokan Version: |
-            placeholder: 
-              [e.g. v3.1.2]
+        1. Dokan Version: [e.g. v3.1.2]
         2. Dokan Pro Version: [e.g. v3.1.2]
         3. WooCommerce Version: [e.g. v4.9.2]
         4. Browser [e.g. chrome, safari]
