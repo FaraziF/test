@@ -1,7 +1,7 @@
 name: Bug Report
 description: File a bug report
 labels: ["bug", "triage"]
-projects: ["dokan-cloud"]
+projects: ["dokan-plugin"]
 assignees:
   - dokan
 body:
@@ -45,14 +45,14 @@ body:
       label: Additional Information
       description: Include any other relevant information, any images or videos, such as related issues, links to documentation, or any workarounds if they exist.
       render: shell
-  - type: dropdown
-    id: browsers
+  - type: textarea
+    id: logs5
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Brave
-        - Safari
-        - Microsoft Edge
+      label: Environment (please complete the following information)
+      value: |
+        1. Dokan Version: [e.g. v3.1.2]
+        2. Dokan Pro Version: [e.g. v3.1.2]
+        3. WooCommerce Version: [e.g. v4.9.2]
+        4. Browser [e.g. chrome, safari]
+        5. Current Theme: [e.g. Store Front]
+      render: shell
