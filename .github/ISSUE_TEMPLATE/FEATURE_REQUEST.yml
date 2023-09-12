@@ -1,6 +1,5 @@
 name: Feature Request
 description: File a feature request
-labels: ["bug", "triage"]
 projects: ["dokan-cloud"]
 assignees:
   - dokan
