@@ -1,9 +1,9 @@
 name: Bug Report
 description: File a bug report
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+projects: ["dokan-cloud"]
 assignees:
-  - octocat
+  - dokan
 body:
   - type: textarea
     id: what-happened
