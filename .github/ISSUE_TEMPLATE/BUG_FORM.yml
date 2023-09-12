@@ -44,7 +44,6 @@ body:
     attributes:
       label: Additional Information
       description: Include any other relevant information, any images or videos, such as related issues, links to documentation, or any workarounds if they exist.
-      render: shell
   - type: textarea
     id: logs5
     attributes:
