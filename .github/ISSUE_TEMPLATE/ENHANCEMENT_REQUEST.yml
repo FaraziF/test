@@ -1,0 +1,41 @@
+name: Enhancement Request
+description: File a enhancement request
+projects: ["dokan-cloud"]
+assignees:
+  - dokan
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Description
+      description: Provide a brief, clear, and concise description of the enhancement request.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened1
+    attributes:
+      label: Request
+      description: Explain why this enhancement is needed, what specific improvements it will bring, and the benefits it will provide.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened2
+    attributes:
+      label: Details
+      description: Elaborate on the enhancement's details, such as proposed changes, new features, or modifications. Be specific and provide context.
+  - type: textarea
+    id: what-happened3
+    attributes:
+      label: Suggested Implementation
+      description: Outline how the enhancement can be implemented. Include technical details, if applicable, or suggest steps to achieve the desired outcome.
+  - type: textarea
+    id: what-happened4
+    attributes:
+      label: Benefits
+      description: Highlight the benefits and advantages of implementing this enhancement, both from a user's perspective and in terms of the software's functionality.
+  - type: textarea
+    id: what-happened5
+    attributes:
+      label: Attachments
+      description: Include any additional materials, examples, screenshots, or data that support and clarify the enhancement request.
+  
